@@ -19,3 +19,7 @@ Open an issue to request any missing asset.
 // then `project-folder/file-name` as in the folder structure
 https://assets.internet4000.com/radio4000/radio4000-icon-huge.png
 ```
+
+## Redirects
+
+The `index.html` files in each folders, including the root, manage the redirects to the corresponding folders in the github repository.
