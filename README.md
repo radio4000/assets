@@ -23,3 +23,13 @@ https://assets.internet4000.com/radio4000/radio4000-icon-huge.png
 ## Redirects
 
 The `index.html` files in each folders, including the root, manage the redirects to the corresponding folders in the github repository.
+
+# Licensing
+
+## Code
+
+GNU GPLv3
+
+## Other
+
+Creative Commons, [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
