@@ -8,7 +8,7 @@ logos for exemple.
 Open an issue in this repository to request any missing asset file you
 would need.
 
-Note: do not serve these assets from the Github repository, it advised
+Note: do not serve these assets from the Github repository, it is advised
 to rehost them.
 
 
