@@ -1,7 +1,7 @@
 /* $purple: #5d1ae6 */
 
 html {
-	background-color: hsl(45, 5%, 90%);
+	background-color: hsl(40, 6%, 90%);
 	color: hsl(0, 0%, 10%); 
 	font-size: 15px;
 	line-height: 1.3125;
@@ -14,7 +14,7 @@ body {
 html,
 button,
 input {
-	font-family: "Maison Neue", "system-ui", sans-serif;
+	font-family: "Maison Neue", "system-ui", -apple-system, BlinkMacSystemFont, sans-serif
 }
 
 h1,
@@ -30,7 +30,23 @@ h2 {
 	font-size: 1.5rem;
 }
 
+a {
+	color: hsl(0, 0%, 10%);
+}
+
+input,
+textarea {
+	font-size: 0.875em;
+}
+
+input[type="text"] {
+	min-height: 2em;
+	padding-left: 0.5em;
+}
+
 .Btn {
+	display: inline-block;
+	font-size: .86667rem;
 	font-weight: bold;
 	border: 1px solid rgba(115,115,115,.4);
 	border-radius: 3px;
@@ -44,7 +60,6 @@ h2 {
 	text-align: center;
 	text-decoration: none;
 }
-
 .Card {
 	font-size: .86667rem;
 	background-color: hsl(0, 0%, 98%);
@@ -62,10 +77,6 @@ h2 {
 
 .Card p {
 	color: hsl(0, 0%, 30%);
-}
-
-a {
-	color: hsl(0, 0%, 10%);
 }
 
 /* Maison Neue regular/italic + bold/italic from Cloudinary */
