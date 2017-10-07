@@ -40,8 +40,8 @@ deployment points to `/radio4000`).
 
 In practice that means you will be able to serve the same ressource in
 two ways:
-- https://assets.internet4000.com/radio4000/radio4000-r4000-bw.svg
-- https://assets.radio4000.com/radio4000-r4000-bw.svg
+- https://assets.internet4000.com/radio4000/icon.svg
+- https://assets.radio4000.com/icon.svg
 
 This feature is for now intended as an easy and mnemotechnic way to
 reach the assets. It **should not** be used in production softwares as
