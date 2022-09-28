@@ -1,3 +1,5 @@
+> you should not use this repo to serve assets, are the URLs will maybe chnge and it might break your code.
+
 # Assets for Internet4000 projects
 
 This repository is used to centralise assets files for internet4000 projects.
@@ -27,6 +29,7 @@ Deployment does not require any build, so the entire content of this
 repository will be hosted and served from a github page.
 
 - [https://internet4000.github.io/assets](https://internet4000.github.io/assets/)
+- [https://internet4000.github.io/assets/radio4000/icon-r4.svg](https://internet4000.github.io/assets/radio4000/icon-r4.svg)
 
 ## Redirects
 
