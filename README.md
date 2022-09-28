@@ -21,33 +21,12 @@ license,
 
 # Development
 
-There are two [Netlify](https://netlify.com) projects, deploying live changes made on master.
-
 ## Hosting and deployment
 
 Deployment does not require any build, so the entire content of this
-repository will be hosted and served.
+repository will be hosted and served from a github page.
 
-- [assets.internet4000.com](https://assets.internet4000.com) redirects
-  to this Github repository.
-- [assets.radio4000.com](https://assets.radio4000.com) redirects to
-  this Github repository, `radio4000` folder.
-  
-Internet4000 assets subdomain is setup (at the host level, Netlify) to point to the root `/` of this
-repository's folder structure, while other projects are setup to point
-their corresponding project folder (ex: assets.radio4000.com
-deployment points to `/radio4000`).
-
-In practice that means you will be able to serve the same ressource in
-two ways:
-- https://assets.internet4000.com/radio4000/icon.svg
-- https://assets.radio4000.com/icon.svg
-
-This feature is for now intended as an easy and mnemotechnic way to
-reach the assets. It **should not** be used in production softwares as
-the file names and path will possibly be changed, depending on the
-current organisation best practice followed or experimenting with.
-
+- [https://internet4000.github.io/assets](https://internet4000.github.io/assets/)
 
 ## Redirects
 
