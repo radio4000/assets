@@ -1,43 +1,24 @@
-> you should not use this repo to serve assets, are the URLs will maybe chnge and it might break your code.
+# Assets for Radio4000
 
-# Assets for Internet4000 projects
+This repository is used to centralise assets files for Radio4000.
 
-This repository is used to centralise assets files for internet4000 projects.
+The assets can be used via https://assets.radio4000.com.
 
-You can use it to browse and download available files per projects,
-logos for exemple.
+You can use it to browse and download available files per projects, logos for example.
 
-Open an issue in this repository to request any missing asset file you
-would need.
+Open an issue in this repository to request any missing asset file you would need.
 
-Note: do not serve these assets from the Github repository, it is advised
-to rehost them.
+Note: do not serve these assets from the Github repository, it is advised to rehost them.
 
+## Licensing
 
-# Licensing
-
-Visual assets are shared under Creative Commons
-license,
+Visual assets are shared under Creative Commons license,
 [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-
-# Development
 
 ## Hosting and deployment
 
-Deployment does not require any build, so the entire content of this
-repository will be hosted and served from a github page.
+This repository is configured to deploy via GitHub pages and the custom domain "assets.radio4000.com".
 
 - [https://internet4000.github.io/assets](https://internet4000.github.io/assets/)
 - [https://internet4000.github.io/assets/radio4000/icon-r4.svg](https://internet4000.github.io/assets/radio4000/icon-r4.svg)
 
-## Redirects
-
-To achieve redirects from the `assets` subdomains, a `meta` tag
-`HTTP-EQUIV="REFRESH"` is used in the `index.html` files.
-
-```
-<meta HTTP-EQUIV="REFRESH" content="0; url=https://github.com/internet4000/assets">
-```
-
-The `index.html` files in each folders, including the root, manage the redirects to the corresponding folders in the github repository.
